@@ -1,5 +1,4 @@
 # Concurrent Railway Reservation System (Java Swing + MySQL)
-
 ## Overview
 A desktop IRCTC-like reservation portal built with pure Java Swing and MySQL integration. Features clean, modern UI with blue-gray theme, smooth transitions, and modular OOP design with concurrent booking support.
 
@@ -127,6 +126,7 @@ The system uses 6 main tables:
 - Animations implemented with Swing Timers
 - All validations centralized in `Validators` class
 - Professional IRCTC-inspired design with modern UX
+
 
 
 
