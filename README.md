@@ -28,10 +28,10 @@ private static final String PASSWORD = ""; // set your MySQL password
 ### 4. Compile and Run
 ```bash
 # Compile with MySQL connector
-javac -cp "mysql-connector-java-8.0.33.jar" -d out -sourcepath src src/com/rbs/App.java
+javac -cp "mysql-connector-java-8.0.33.jar" -d out -sourcepath src src/com/rbs/App.java,
 
 # Run
-java -cp "out:mysql-connector-java-8.0.33.jar" com.rbs.App
+java -cp "out:mysql-connector-java-8.0.33.jar" com.rbs.App,
 ```
 
 ## Features Implemented
@@ -126,6 +126,7 @@ The system uses 6 main tables:
 - Animations implemented with Swing Timers
 - All validations centralized in `Validators` class
 - Professional IRCTC-inspired design with modern UX
+
 
 
 
